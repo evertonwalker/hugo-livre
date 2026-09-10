@@ -23,15 +23,15 @@ ficam em memória e um aviso aparece embaixo do formulário.
 A data alvo fica em [src/config.js](src/config.js):
 
 ```js
-const DEFAULT_TARGET_DATE = '2026-09-28T23:59:59-03:00'
+const DEFAULT_TARGET_DATE = '2026-09-27T23:59:59-03:00'
 ```
 
 Ou defina `VITE_TARGET_DATE` (ISO 8601 com fuso). Título, subtítulo e a mensagem
 de fim também são configuráveis — veja [.env.example](.env.example).
 
-O alvo é o **fim** do dia 28/09/2026, não a meia-noite que o inicia: assim o
-contador marca 18 dias enquanto o dia 28 ainda não terminou. Se o horário certo
-for outro (uma hora específica do dia 28, por exemplo), troque só essa linha.
+O alvo é o **fim** do dia 27/09/2026, não a meia-noite que o inicia: assim o
+contador marca 17 dias enquanto o dia 27 ainda não terminou. Se o horário certo
+for outro (uma hora específica do dia 27, por exemplo), troque só essa linha.
 
 > Variáveis `VITE_*` são lidas no **build**. Ao mudar na Vercel, faça um novo
 > deploy para valer.
