@@ -9,7 +9,7 @@ export default function App() {
           <Countdown />
         </div>
 
-        <div className="mx-auto max-w-2xl pb-24">
+        <div className="mx-auto max-w-2xl pb-12">
           <Comments />
         </div>
       </main>
